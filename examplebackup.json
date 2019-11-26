@@ -14,7 +14,8 @@
     "subscription_id": "{{user `subscription_id`}}",
     "image_resource_id": "/subscriptions/{{user `subscription_id`}}/resourceGroups/{{user `resource_group`}}/providers/Microsoft.Compute/images/packerMyDeleteCopy01-{{timestamp}}",
     "source": "{{user `sourceDiskResID`}}",
-    "os_disk_skip_cleanup": "true"
+    "os_disk_skip_cleanup": "true",
+    "copy_files": []
   }],
   "provisioners": [{
     "inline": [
