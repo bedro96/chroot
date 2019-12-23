@@ -1,5 +1,5 @@
 # Packer/Azure-Chroot
-Based on Packer v1.4.5
+Based on Packer v1.4.5.
 Follow command will create a Packer Temp file.
 
 ```bash
